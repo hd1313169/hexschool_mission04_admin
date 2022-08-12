@@ -88,6 +88,9 @@
 .mb-16 {
   margin-bottom: 16px; }
 
+.mb-22 {
+  margin-bottom: 22px; }
+
 .mb-24 {
   margin-bottom: 24px; }
 
@@ -165,6 +168,12 @@
 .pl-32 {
   padding-left: 32px; }
 
+.pb-22 {
+  padding-bottom: 22px; }
+
+.pr-32 {
+  padding-right: 32px; }
+
 .container {
   width: 100%;
   padding: 0 32px; }
@@ -213,13 +222,19 @@ h1 {
   min-width: 296px; }
 
 .avatar {
+  display: block;
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .main {
   width: calc(100vw - 296px); }
 
 .dropdown .btn:hover {
+  color: #198754; }
+
+.icon span:hover {
   color: #198754; }
 
 .list-group-item h3, .list-group-item p {
@@ -241,5 +256,14 @@ h1 {
 
 .page-link {
   border: none; }
+
+.btn {
+  padding: 8px 32px; }
+
+.card-body .btn {
+  padding: 11px 16px 10px 12px; }
+  .card-body .btn:hover {
+    color: #dee2e6;
+    background-color: #198754; }
 
 /*# sourceMappingURL=all.css.map */
