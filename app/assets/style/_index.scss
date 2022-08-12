@@ -1,3 +1,11 @@
+.material-icons{
+
+  &:hover{
+    color: #198754;
+
+  }
+}
+
 
 .main{
   width: calc(100vw - 296px);
@@ -45,9 +53,8 @@
   padding: 8px 32px;
 }
 
-.card-body{
+.download{
 
-  .btn{
   padding: 11px 16px 10px 12px; 
 
     &:hover{
@@ -55,4 +62,3 @@
       background-color: #198754;
     }
   }
-}
