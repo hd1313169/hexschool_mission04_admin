@@ -1,0 +1,25 @@
+*, *::after, *::before {
+	box-sizing: border-box;   
+}
+body{
+    font-family: "Lato", Roboto,'Noto Sans TC', sans-serif;
+}
+img{
+    vertical-align: middle;
+	width: 100%;
+	height: auto;
+}
+
+.db{
+    display: block;
+}
+a{
+	text-decoration: none;
+}
+.ta-c{
+    text-align: center;
+}
+
+span{
+    vertical-align: middle;
+}

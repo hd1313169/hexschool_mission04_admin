@@ -5,8 +5,148 @@ engine: ejs
 current: index
 ---
 
-<h1>
-  這是一段話
-</h1>
+<main class="main">
 
-<div class="box"></div>
+  <!-- 上方導覽列 -->
+  <div class="container d-flex justify-content-between align-items-center my-32">
+
+    <!-- 左邊 -->
+      <div class="d-flex">
+      <!-- 標題 -->
+      <h2 class="me-5">Assignment</h2>
+      <!--  -->
+    
+      <!-- 下拉選單 -->
+      <div class="dropdown">
+       <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">All Courses</a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="#">All Courses</a></li>
+          <li><a class="dropdown-item" href="#">Other</a></li>
+        </ul>
+      </div>
+      <!--  -->
+    </div>
+
+    <!-- 右邊 -->
+    <div class="">
+      <a href="#" class="icon text-dark"><span class="material-icons me-4">search</span></a>
+      <a href="#" class="icon text-dark"><span class="material-icons">notifications</span></a>
+    </div>
+
+  </div>
+
+  <!-- 內容 -->
+  <div class="container">
+  <div class="row">
+      <!-- 左邊欄位 -->
+      <div class="col-4">
+        <!-- 下拉選單 -->
+        <div class="dropdown mb-6">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">All (4)</a>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+             <li><a class="dropdown-item" href="#">All (4)</a></li>
+             <li><a class="dropdown-item" href="#">Other (1)</a></li>
+           </ul>
+         </div>
+
+        <!-- 列表 -->
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active p-0" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+          <div class="p-12">
+            <div class="d-flex justify-content-between ">
+              <p class="fz-12 mb-04">Chapter Assignment 2</p>
+              <p class="fz-12 mb-04 text-dark">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between ">
+              <h3 class="fz-16 m-0">Please check this file…</h3>
+              <p class="fz-12 m-0 text-secondary">Emily Wang</p>
+            </div>
+          </div>
+          </a>
+
+          <a class="list-group-item list-group-item-action active p-0" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+            <div class="p-12">
+              <div class="d-flex justify-content-between">
+                <p class="fz-12 mb-04">Chapter Assignment 1</p>
+                <p class="fz-12 mb-04 text-dark">12 hrs ago</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <h3 class="fz-16 m-0">My Homework</h3>
+                <p class="fz-12 m-0 text-secondary">David Xu</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="list-group-item list-group-item-action active p-0" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+          <div class="p-12">
+            <div class="d-flex justify-content-between">
+              <p class="fz-12 mb-04">Final Assignment</p>
+              <p class="fz-12 mb-04 text-dark">18 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h3 class="fz-16 m-0">Have a problem with this…</h3>
+              <p class="fz-12 m-0 text-secondary">Tony Wei</p>
+            </div>
+          </div>
+          </a>
+
+          <a class="list-group-item list-group-item-action active p-0" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+            <div class="p-12">
+              <div class="d-flex justify-content-between">
+                <p class="fz-12 mb-04">Final Assignment</p>
+                <p class="fz-12 mb-04 text-dark">19 hrs ago</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <h3 class="fz-16 m-0">Did I do it right?</h3> 
+                <p class="fz-12 m-0 text-secondary">Christina Lin</p>
+              </div>
+            </div>
+            </a>
+        </div>
+      </div>
+
+    <!--  -->
+
+    <!-- 右邊欄位   -->
+      <div class="col-8">
+        <div>
+          <!-- 卡片 -->
+          <div class="card mb-8">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div>
+                <p class="fz-12 text-secondary mb-04">Chapter Assignment 2 / HTML&CSS</p>
+                <h3 class="fz-16 fw-bold mb-0">Please check this file for me, thanks!</h3>
+              </div>
+              <a href="#" class="text-dark"><span class="material-icons">more_vert</span></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        
+        </div>
+        <!--  -->
+
+        <!-- 下方按鈕 -->
+        <div class="d-flex justify-content-between align-items-center">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#"><span class="material-icons text-dark">arrow_back_ios</span></a></li>
+              <li class="page-item"><a class="page-link" href="#"><span class="material-icons text-dark">arrow_forward_ios</span></a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <button type="button" class="btn btn-outline-success">Mark as read</button>
+            <button type="button" class="btn btn-success">Reply</button>
+          </div>
+
+        </div>
+
+        <!--  -->
+    </div>
+  </div>
+  </div>
+
+</main>
