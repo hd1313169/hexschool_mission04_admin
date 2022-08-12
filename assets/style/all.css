@@ -228,6 +228,9 @@ h1 {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.material-icons:hover {
+  color: #198754; }
+
 .main {
   width: calc(100vw - 296px); }
 
@@ -260,9 +263,9 @@ h1 {
 .btn {
   padding: 8px 32px; }
 
-.card-body .btn {
+.download {
   padding: 11px 16px 10px 12px; }
-  .card-body .btn:hover {
+  .download:hover {
     color: #dee2e6;
     background-color: #198754; }
 
